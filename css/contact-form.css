@@ -4,7 +4,7 @@
 
 .fcf-body {
     margin: 0;
-    font-family: -apple-system, Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -42,6 +42,7 @@
 }
 
 .fcf-form-control {
+    font-family: -apple-system, 'Courier New', Courier, monospace;
     display: block;
     width: 100%;
     height: calc(1.5em + 0.75rem + 2px);
@@ -93,6 +94,7 @@ label.fcf-label {
 }
 
 .fcf-btn {
+    font-family: 'Work Sans', sans-serif;
     display: inline-block;
     font-weight: 400;
     color: #212529;
@@ -130,19 +132,19 @@ label.fcf-label {
 
 .fcf-btn-primary {
     color: #fff;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: #e026268c;
     border-color: black;
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
-    background-color: rgba(255, 0, 0, 0.5);;
+    background-color: #e026268c;
     border-color: black;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
-    background-color: rgba(255, 0, 0, 0.5);;
+    background-color: #e026268c;
     border-color: black;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
