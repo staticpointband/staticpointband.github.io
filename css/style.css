@@ -70,7 +70,7 @@ body {
     max-width: 100%;
     background-size: 100%;
 }
-ul#social-list{
+/*ul#social-list{
 	  list-style: none;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ ul#social-list li a{
 
 ul#social-list li:first-child {
   margin-left: 0;
-}
+}*/
 header {
     background: var(--background);
     /*border: 1px solid orangered;*/
