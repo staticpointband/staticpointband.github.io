@@ -11,11 +11,19 @@
     color: white;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.9);
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
     padding-bottom: 10px;
     border-radius: 0.25rem;
     max-width: 100%;
     width: 65%
+}
+@media screen and (max-width: 800px) {
+    .fcf-body{
+        width: 75%;
+        line-height: 0.75;
+    }
 }
 
 .fcf-form-group {
