@@ -123,7 +123,10 @@ footer{
     font-size: var(--fs-h2);
     /*border: 1px solid red;*/
 }
-@media screen and (max-width: 683px) and (max-height: 750px) {
+@media screen and (max-width: 500px) and (max-height: 800px) {
+  #body-content{
+    padding: 2em;
+  }
   .footer{
     height: 150px;
   }
