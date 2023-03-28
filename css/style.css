@@ -42,7 +42,7 @@ body {
 	  font-family: 'Work Sans', sans-serif;
 	  font-weight: 400;
     background-image: url(staticpoint-poster-2.jpg);
-    background-color: var(--background-img);
+    /*background-color: var(--background-img);*/
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
