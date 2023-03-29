@@ -133,14 +133,14 @@ footer{
   }
 }*/
 
-@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+/*@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #body-content {
     padding: 2em;
   }
   .footer {
     height: 155px;
   }
-}
+}*/
 
 #contact-container{
     width: 80%;
