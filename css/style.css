@@ -124,11 +124,20 @@ footer{
     /*border: 1px solid red;*/
 }
 
-@media not all and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) and (max-width: 400px) and (max-height: 844px){
+/*@media not all and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) and (max-width: 400px) and (max-height: 844px){
   #body-content{
     padding: 2em;
   }
   .footer{
+    height: 155px;
+  }
+}*/
+
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #body-content {
+    padding: 2em;
+  }
+  .footer {
     height: 155px;
   }
 }
