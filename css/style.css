@@ -141,7 +141,7 @@ footer{
     height: 155px;
   }
 }*/
-@media only screen and (max-device-width: 480px) and (max-height: 880){
+@media screen and (max-device-width: 480px) and (max-height: 880){
   #body-content {
     padding: 2em;
   }
