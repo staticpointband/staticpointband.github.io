@@ -1,81 +1,371 @@
+
 <!DOCTYPE html>
-<!--
-    /* WEBSITE CREDITS */
-
-    Website Development by
-    James McCarron
-    https://james-mccarron.github.io
-
-    Photography by
-    Janine Van Oostram
-    @janine.v.photography on Instagram
-
-    Graphic Design by
-    @gregory.ac on Instagram
--->
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <meta name="description" content='Official Website for Static Point | "Fright" is out March 31st'>
-        <meta name="author" content="James McCarron - https://james-mccarron.github.io/">
-        <script src="https://kit.fontawesome.com/afc995c48e.js" crossorigin="anonymous"></script>
-        <link href = "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel = "stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Amatica+SC:700|Amiko|Raleway:300,700" rel="stylesheet">
-        <link rel="icon" href="css/img/logo-bg.png">
-        <title>STATIC POINT</title>
-    </head>
-    <body>
-        <header>
-            <div class = "logo">
-                <a href = "index.html"><img src = "css/img/logo-banner-white.png" width = "150" height="100"></a>
-            </div>
-            <!--<input type="checkbox" id="nav-toggle" class="nav-toggle">-->
-            <nav>
-                <ul>
-                    <li><a href = "index.html">HOME</a></li>
-                    <li><a href = "music.html">MUSIC</a></li>
-                    <!--<li><a href = "videos.html">VIDEOS</a></li>-->
-                    <li><a href = "shows.html">SHOWS</a></li>
-                    <li><a href = "contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-            <!--<label for="nav-toggle" class="nav-toggle-label">
-                <span></span>
-              </label>-->
-        </header>
-        <div class = "content">
-        </div>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords"
+    content="james mccarron, james, mccarron" />
+  <meta name="author" content="James McCarron" />
+  <meta name="description" content="Software Engineer" />
+
+  <title>STATIC POINT</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style1.css" rel="stylesheet">
+  <link href="css/shows.css" rel="stylesheet">
+  <link href="css/appv2.css" rel="stylesheet">
+
+  
+  <!-- BOOTSTRAP STYLE SHEET -->
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <!-- STYLE FOR OPENING IMAGE IN POPUP USING FANCYBOX-->
+  <link href="js/source/jquery.fancybox.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom Fonts -->
+  <script src="https://kit.fontawesome.com/afc995c48e.js" crossorigin="anonymous"></script>
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css"
+    href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-80316791-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- Navigation -->
+  <!--
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
         
-        <footer class = "footer">
-            <ul class = "social-list">
-                <li class = "social-list__item">
-                    <a class = "social-list__link" href = "https://instagram.com/staticpointband">
-                        <i class="fa-brands fa-instagram fa-2xl"></i></a>
-                </li>
-                <li class = "social-list__item">
-                    <a class = "social-list__link" href="https://www.tiktok.com/@staticpointband/">
-                        <i class="fa-brands fa-tiktok fa-2xl"></i></a>
-                </li>
-                <li class = "social-list__item">
-                    <a class = "social-list__link" href="https://open.spotify.com/artist/1VLZfWrlyLdlc8aErUTjs1?si=E6UwNmbBRlCvzAAMUtwdnQ">
-                        <i class="fa-brands fa-spotify fa-2xl"></i></a>
-                </li>
-                <li class = "social-list__item">
-                    <a class = "social-list__link" href="https://music.apple.com/us/artist/static-point/1677957583">
-                        <i class="fa-brands fa-itunes-note fa-2xl"></i></a>
-                </li>
-                <li class = "social-list__item">
-                    <a class = "social-list__link" href="https://youtube.com/@staticpointband">
-                        <i class="fa-brands fa-youtube fa-2xl"></i></a>
-                </li>
-                <li class = "social-list__item">
-                    <a class = "social-list__link" href="https://staticpoint.bandcamp.com">
-                        <i class="fa-brands fa-bandcamp fa-2xl"></i></a>
-                </li>
-            </ul>
-        </footer>
-    </body>
+      </div>
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">SHOWS</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#merch">MERCH</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#music">MUSIC</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class = "social-list">
+        <li class = "social-list__item">
+            <a class = "social-list__link" href = "https://instagram.com/staticpointband">
+                <i class="fa-brands fa-instagram fa-lg"></i></a>
+        </li>
+        <li class = "social-list__item">
+            <a class = "social-list__link" href="https://www.tiktok.com/@staticpointband/">
+                <i class="fa-brands fa-tiktok fa-lg"></i></a>
+        </li>
+        <li class = "social-list__item">
+            <a class = "social-list__link" href="https://open.spotify.com/artist/1VLZfWrlyLdlc8aErUTjs1?si=E6UwNmbBRlCvzAAMUtwdnQ">
+                <i class="fa-brands fa-spotify fa-lg"></i></a>
+        </li>
+        <li class = "social-list__item">
+            <a class = "social-list__link" href="https://music.apple.com/us/artist/static-point/1677957583">
+                <i class="fa-brands fa-itunes-note fa-lg"></i></a>
+        </li>
+        <li class = "social-list__item">
+            <a class = "social-list__link" href="https://youtube.com/@staticpointband">
+                <i class="fa-brands fa-youtube fa-lg"></i></a>
+        </li>
+        <li class = "social-list__item">
+            <a class = "social-list__link" href="https://staticpoint.bandcamp.com">
+                <i class="fa-brands fa-bandcamp fa-lg"></i></a>
+        </li>
+    </ul>
+    </div>
+  </nav>-->
+  <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <ul class = "social-list">
+          <li class = "social-list__item">
+              <a class = "social-list__link" href = "https://instagram.com/staticpointband">
+                  <i class="fa-brands fa-instagram fa-lg"></i></a>
+          </li>
+          <li class = "social-list__item">
+              <a class = "social-list__link" href="https://www.tiktok.com/@staticpointband/">
+                  <i class="fa-brands fa-tiktok fa-lg"></i></a>
+          </li>
+          <li class = "social-list__item">
+              <a class = "social-list__link" href="https://open.spotify.com/artist/1VLZfWrlyLdlc8aErUTjs1?si=E6UwNmbBRlCvzAAMUtwdnQ">
+                  <i class="fa-brands fa-spotify fa-lg"></i></a>
+          </li>
+          <li class = "social-list__item">
+              <a class = "social-list__link" href="https://music.apple.com/us/artist/static-point/1677957583">
+                  <i class="fa-brands fa-itunes-note fa-lg"></i></a>
+          </li>
+          <li class = "social-list__item">
+              <a class = "social-list__link" href="https://youtube.com/@staticpointband">
+                  <i class="fa-brands fa-youtube fa-lg"></i></a>
+          </li>
+          <li class = "social-list__item">
+              <a class = "social-list__link" href="https://staticpoint.bandcamp.com">
+                  <i class="fa-brands fa-bandcamp fa-lg"></i></a>
+          </li>
+      </ul>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-collapse navbar-right navbar-main-collapse collapse" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#music">MUSIC</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#merch">MERCH</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">SHOWS</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Intro Header -->
+  <section id="intro" class="intro text-center">
+    <div class="overlay">
+      <div class="intro-content">
+        <h1 class="brand-heading animated fadeInDown delay-05s"><i>FRIGHT</i>     Out Now</h1>
+        <div class="picture" id=picture></div>
+        <!--<p class="intro-text animated fadeIn delay-2s">Out Now</p>-->
+        <div id="resume-button" style="padding-top: 1.5em;">
+          <a class="resume-btn animated fadeIn delay-2p5s" href="https://lnkfi.re/Fright" target="_blank">STREAM HERE</a>
+        </div>
+      </div>
+    </div>
+    <div class="mailing-list-signup">
+      <form action="YOUR_MAILING_LIST_FORM_ACTION_URL" method="POST">
+          <label for="email" style="color: white;">Sign up for our mailing list:</label>
+          <input type="email" id="email" name="email" placeholder="Your email address">
+          <input type="submit" value="Subscribe">
+      </form>
+    </div>
+  </section>
+  <section id="music">
+    <h2 class="music-title">MUSIC</h2>
+    <div class="album-container">
+      <div class="album">
+        <img src="img/Fright.jpg" alt="FRIGHT">
+        <h2>FRIGHT</h2>
+        <a href="https://lnkfi.re/Fright">STREAM</a>
+        <a href ="https://staticpoint.bandcamp.com/track/fright">BUY NOW</a>
+      </div>
+      <div class="album">
+        <img src="img/Fright.jpg" alt="A HERO'S DEATH">
+        <h2>YOUTH</h2>
+        <a>STREAM</a>
+        <a>BUY NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="merch">
+    <h2 class="merch-title">MERCH</h2>
+    <div class="merch-container">
+      <div class="item">
+        <img src="/img/Screen Shot 2024-01-22 at 8.53.46 PM.png" alt="Cheddar Shirt">
+        <h3>Cheddar Shirt</h3>
+        <button>Buy Now</button>
+        <span class="price">$20.00</span>
+      </div>
+      <div class="item">
+        <img src="/img/Screen Shot 2024-01-22 at 8.54.18 PM.png" alt="Shirt Toad">
+        <h3>Shirt Toad</h3>
+        <button>Buy Now</button>
+        <span class="price">$20.00</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="portfolio-title">SHOWS</h2>
+          <!-- <h5 class="filter-text">(click tags to filter by type)</h5> -->
+          <div class = "body-content">
+            <div id="body-content" class="container-fluid" style="opacity: 1; visibility: visible;">
+                <div id="tour-container" class="section container">
+                    <div id="seated-55fdf2c0" data-artist-id="ffebedb9-2381-4520-805a-d19100667ffe" data-css-version="2" 
+                    data-start-load="true" style="display: block;">
+                        <div class="seated-events-table">
+                            <div class="seated-event-row">
+                                <div class="seated-event-description-cells">
+                                    <div class="seated-event-date-cell">
+                                        Oct 11, 2023
+                                    </div>
+                                    <div class="seated-event-venue-cell">
+                                        <div class="seated-event-venue-name">Dakota Tavern</div>
+                                        <div class="seated-event-venue-location">Toronto, ON</div>
+                                    </div>
+                                    <div class="seated-event-details-cell">
+                                        Static Point w/ The Commune & ESXP
+                                    </div>
+                                </div>
+                                <div class="seated-event-link-cells">
+                                    <div class="seated-event-link-cell1">
+                                        <a class="seated-event-link1 seated-event-link1-sold-out" href="https://www.eventbrite.ca/e/evan-singer-with-the-commune-static-point-tickets-730716361307?aff=oddtdtcreator" target="_blank">
+                                                                   
+                                            Buy Now
+                                                   
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="seated-event-row">
+                              <div class="seated-event-description-cells">
+                                  <div class="seated-event-date-cell">
+                                      Feb 3, 2024
+                                  </div>
+                                  <div class="seated-event-venue-cell">
+                                      <div class="seated-event-venue-name">The Atria</div>
+                                      <div class="seated-event-venue-location">Oshawa, ON</div>
+                                  </div>
+                                  <div class="seated-event-details-cell">
+                                      Static Point w/ The Commune & Lydia Stephen
+                                  </div>
+                              </div>
+                              <div class="seated-event-link-cells">
+                                  <div class="seated-event-link-cell1">
+                                      <a class="seated-event-link1 seated-event-link1-sold-out" href="https://www.eventbrite.ca/e/evan-singer-with-the-commune-static-point-tickets-730716361307?aff=oddtdtcreator" target="_blank">
+                                                                 
+                                          Buy Now
+                                                 
+                                      </a>
+                                  </div>
+                              </div>
+                            </div>
+                              <div class="seated-event-row">
+                                <div class="notification-section">
+                                  <h4>Get notified when new events are announced</h4>
+                                  <a href="">Subscribe</a>
+                                </div>
+                                   
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    </div>
+  </section> 
+  
+  <!-- Footer -->
+  <section id="contact">
+    <footer>
+      <div class="copyright">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h2>Contact</h2>
+              <p>For booking or general inquiry please email</p>
+              <p><a href="mailto:staticpointofficial@gmail.com">staticpointofficial@gmail.com</a></p>
+            </div>
+            <div class="col-md-12 text-center">
+              <!-- <h3>Other places you can find me</h3> -->
+              <ul class="list-inline banner-social-buttons animated fadeIn">
+                <!-- GitHub Button -->
+                <li><a id="github" href="https://github.com/james-mccarron" target="_blank"><i
+                      class="fa fa-github"></i></a></li>
+                <!-- LinkedIn Button -->
+                <li><a id="linkedin" href="https://www.linkedin.com/in/james-mccarron-1624aa182/" target="_blank"><i
+                      class="fa fa-linkedin"></i></a></li>
+                <!-- Instagram Button -->
+                <li><a id="instagram" href="https://www.instagram.com/staticpointband/" target="_blank"><i
+                      class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+
+  <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/theme.js"></script>
+
+  <!-- REQUIRED SCRIPTS FILES -->
+  <!-- CORE JQUERY SCRIPTS -->
+  <!-- <script src="js/jquery-1.11.1.js"></script> -->
+  <!--  FANCYBOX PLUGIN -->
+  <script src="js/source/jquery.fancybox.js"></script>
+  <!-- ISOTOPE SCRIPTS -->
+  <script src="js/jquery.isotope.js"></script>
+  <!-- CUSTOM SCRIPTS REQIRED-->
+  <script src="js/portfolio.js"></script>
+
+</body>
+
 </html>

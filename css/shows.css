@@ -80,7 +80,7 @@
 #tour-container {
 	font-family: 'Work Sans', sans-serif;
 	color: #464646;
-	width: 70%;
+	width: 100%;
     background-color: rgba(0,0,0,0.9);
 	justify-content: center !important;
 }
