@@ -769,7 +769,7 @@ a.portfolio-btn:hover, a.portfolio-btn:active {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato",sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -1250,4 +1250,104 @@ body {
         -webkit-transition: background 0.1s ease-in-out;
         -o-transition: background 0.1s ease-in-out;
         transition: background 0.1s ease-in-out;
+      }
+
+      .mailing-list-signup {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        padding: 1px 0; /* Top and bottom padding */
+        text-align: center;
+        border-top: 1px solid rgba(224, 38, 38, 0.55);
+        z-index: 1000;
+        box-sizing: border-box;
+        display: flex; /* Enable flexbox */
+        flex-direction: row; /* Stack items vertically */
+        justify-content: center; /* Center items vertically */
+        align-items: center; /* Center items horizontally */
+      }
+      
+      .mailing-list-signup form {
+        max-width: 1200px; /* Set a max-width if you prefer */
+        margin: 0 auto; /* Center the form in the div */
+        display: flex;
+        flex-wrap: wrap; /* Wrap items to a new line on small screens */
+        justify-content: center; /* This will center your items */
+        align-items: center; /* Align items vertically */
+        flex-direction: row;
+      }
+      
+    
+      .mailing-list-signup .mc-field-group {
+        flex: 1; /* Allows input fields to grow and take up available space */
+        max-width: 200px; /* Maximum width of text boxes */
+        margin: 0 5px; /* Spacing between the inputs */
+      }
+      
+      .mailing-list-signup .mc-field-group input {
+        width: 100%; /* Make input fields take up the full width of their parent */
+      }
+      
+      .mailing-list-signup input[type="submit"] {
+        white-space: nowrap;
+        flex: 0 0 auto; /* Do not grow or shrink the button */
+        margin: 0 5px; /* Spacing between the button and the inputs */
+      }
+      
+      /* Styles for screens that are less than 600px wide */
+      @media (max-width: 599px) {
+        .mailing-list-signup label {
+          flex-basis: auto; /* Allow the label to fit its content size */
+          padding: 1%;
+        }
+      
+        .mailing-list-signup .mc-field-group,
+        .mailing-list-signup input[type="submit"] {
+          flex-basis: auto; /* Allow inputs and button to fit their content size */
+          margin: 0 5px; /* Maintain spacing */
+        }
+      
+        .mailing-list-signup form {
+          flex-direction: column; /* Stack the elements */
+          align-items: stretch; /* Stretch elements to fit the container */
+        }
+      }
+      
+      /* Styles for screens that are very small */
+      @media (max-width: 457px) {
+        .mailing-list-signup form {
+          flex-direction: column; /* Stack the elements */
+        }
+      
+        .mailing-list-signup .mc-field-group,
+        .mailing-list-signup input[type="submit"] {
+          width: 90%; /* Adjust the width as needed */
+          margin: 5px auto; /* Center and add vertical space */
+        }
+      }
+
+      .mailing-list-signup a{
+        background-color: rgba(224, 38, 38, 0.55);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+
+      .mailing-list-signup a:hover{
+        color: #fff;
+        /*font-weight: 400;*/
+        background-color: rgba(254, 254, 254, 0.2);
+        text-decoration: none;
+      }
+
+      .album a:hover{
+        color: #fff;
+        /*font-weight: 400;*/
+        background-color: rgba(254, 254, 254, 0.2);
+        text-decoration: none;
       }
