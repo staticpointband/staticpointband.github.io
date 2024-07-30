@@ -182,7 +182,10 @@ a:focus {
     height: 100%;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-color: #4D7C8A;
+    color: #000;
 }
 #intro .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
@@ -279,7 +282,7 @@ a.fa.fa-angle-down:focus {
   height: calc(9vw + 9vh + 6vmin);
   width: calc(9vw + 9vh + 6vmin);
   /*border-radius: 500px;*/
-  background: url(../img/Fright.jpg) center center no-repeat;
+  background: url(../img/Midnight-Car-Ride-Art.jpg) center center no-repeat;
   background-size: cover;
   box-shadow: 0 3px 12px rgba(0, 0, 0, .23), 0 3px 12px rgba(0, 0, 0, .16);
   transition: box-shadow .3s ease-in-out;
